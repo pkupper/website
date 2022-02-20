@@ -25,7 +25,7 @@ html {
 
 body {
     height: 100%;
-    margin: 32px;
+    margin: 0;
     padding: 0;
     display: flex;
     align-items: center;
@@ -33,7 +33,7 @@ body {
 }
 
 main {
-    padding: 0;
+    padding: 32px;
     margin: 0 auto;
 }
 
@@ -77,4 +77,8 @@ li a {
 a {
     color: inherit;
     text-decoration: inherit;
+}
+
+a:hover {
+    color: #b5b5b5;
 }
